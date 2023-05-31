@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'> 
+        <style>
+            body{
+            background-color: #C5DECD;
+            }
+            h1,h2,h3,p {
+            font-family: "Noto Sans CJK TC";
+            color: #495159;
+            }
+            .flex-container{
+                display: flex;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Flex Box</h1>
+        <h2>The two axes of flexbox</h2>
+        <p>When working with flexbox you need to think in terms of two axes — the main axis and the cross axis. The main axis is defined by the flex-direction property, and the cross axis runs perpendicular to it. Everything we do with flexbox refers back to these axes, so it is worth understanding how they work from the outset.</p>
+        <div class="flex-container">
+            <div class="flex-item">
+                <h3>The main axis</h3>
+                <p>The main axis is defined by flex-direction, which has four possible values:row/row-reverse/column/column-reverse</p>
+            </div>
+            <div class="flex-item">
+                <h3>The cross axis</h3>
+                <p>The cross axis runs perpendicular to the main axis, therefore if your flex-direction (main axis) is set to row or row-reverse the cross axis runs down the columns.</p>
+            </div>
+        </div>
+    </body>
+</html>
